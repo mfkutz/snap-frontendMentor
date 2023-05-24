@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./assets/fonts/Epilogue-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./assets/fonts/Epilogue-Bold.ttf);
+}
+
+
+.fontEN {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fontEB {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    html {
+        font-size: 18px;
+        font-family: 'Epilogue', sans-serif;
+        background-color: #fafafa;
+    }
+}
+
+.special-background-menu {
+    box-shadow: 0 0 0 100vmax rgba(4, 16, 49, 0.5);
+}
+
+.grayC {
+    color: #6d6d6d;
+}
+
+.disabled {
+    display: none;
+}
+
+
+@media (max-width:1024px) {
+    .desktopScreen {
+        display: none;
+    }
+}
