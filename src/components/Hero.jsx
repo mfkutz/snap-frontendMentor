@@ -4,6 +4,7 @@ import desktop from '../images/desktop.png'
 import ClientAudioPhile from '../components/svg/ClientAudioPhile'
 import ClientMeet from '../components/svg/ClientMeet'
 import ClientMaker from '../components/svg/ClientMaker'
+import ClientDatabiz from '../components/svg/ClientDatabiz'
 
 const Hero = () => {
     return (
@@ -17,7 +18,7 @@ const Hero = () => {
 
                 <div className='flex items-center justify-evenly '>
                     <div className=''>
-                       
+                        <ClientDatabiz />
                     </div>
                     <div>
                         <ClientAudioPhile />
