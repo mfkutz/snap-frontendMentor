@@ -70,7 +70,7 @@ const NavBar = () => {
 
 
             </div>
-            <div className="lg:hidden">
+            <div className="lg:hidden z-50">
 
                 {/* ***********MENU MOBILE **************/}
                 <button onClick={menuControl} className={menuBar ? "disabled" : ''}>
