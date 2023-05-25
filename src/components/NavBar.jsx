@@ -41,7 +41,7 @@ const NavBar = () => {
                 <ul className="flex min-w-[60%] gap-8 pl-4">
                     {/************** Menu One ****************/}
                     <button onClick={menuOneControl} className="flex items-center hover:text-black">Features<span className="ml-2">{menuOne ? <ArrowUp /> : <ArrowDown />}</span></button>
-                    <div className={`${menuOne ? '' : "disabled"} absolute top-10 -left-14 p-5 px-6 flex flex-col rounded-lg shadow-xl`}>
+                    <div className={`${menuOne ? '' : "disabled"} absolute top-10 -left-14 p-5 px-6 flex flex-col rounded-lg shadow-xl bg-white`}>
                         <ul className="flex flex-col gap-3">
                             <li className="flex gap-[15px] cursor-pointer hover:text-black"><Todo />Todo List</li>
                             <li className="flex gap-[13px] cursor-pointer hover:text-black"><Calendar />Calendar</li>
@@ -51,7 +51,7 @@ const NavBar = () => {
                     </div>
                     {/* *************Menu Two************** */}
                     <button onClick={menuTwoControl} className="flex items-center hover:text-black">Company<span className="ml-2">{menuTwo ? <ArrowUp /> : <ArrowDown />}</span></button>
-                    <div className={`${menuTwo ? '' : "disabled"} absolute top-10 left-[130px] p-5 px-6 flex flex-col rounded-lg shadow-xl`}>
+                    <div className={`${menuTwo ? '' : "disabled"} absolute top-10 left-[130px] p-5 px-6 flex flex-col rounded-lg shadow-xl bg-white`}>
                         <ul className="flex flex-col gap-3">
                             <li className="flex gap-[15px] cursor-pointer hover:text-black">History</li>
                             <li className="flex gap-[13px] cursor-pointer hover:text-black">Our Team</li>
