@@ -9,6 +9,8 @@ import Reminders from "./svg/Reminders"
 import Planning from "./svg/Planning"
 import { useState } from "react"
 
+
+
 const NavBar = () => {
     const [menuBar, setMenuBar] = useState(false)
     const [menuOne, setMenuOne] = useState(false)
@@ -70,7 +72,7 @@ const NavBar = () => {
 
 
             </div>
-            <div className="lg:hidden z-50">
+            <div className="lg:hidden z-50 ">
 
                 {/* ***********MENU MOBILE **************/}
                 <button onClick={menuControl} className={menuBar ? "disabled" : ''}>
@@ -79,7 +81,7 @@ const NavBar = () => {
 
                 <div className={`${menuBar ? '' : "disabled"}`}>
 
-                    <div className="bg-[#fafafa] absolute top-0 right-0 p-4 min-w-[230px] min-h-screen special-background-menu">
+                    <div className="bg-[#fafafa] absolute top-0 right-0 p-4 min-w-[230px] min-h-screen special-background-menu ">
                         <div onClick={menuControl} className="flex justify-end">
                             <CloseMenu />
                         </div>
