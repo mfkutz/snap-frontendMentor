@@ -34,9 +34,9 @@ const Hero = () => {
             </div>
 
             {/* ****************HERO 2 *************************/}
-            <div className='flex justify-center order-1 lg:order-2 lg:max-w-full lg:min-h-full'>
+            <div className='flex justify-center order-1 lg:order-2 lg:max-w-[460px] lg:min-w-[400px] lg:min-h-full'>
                 <img className='lg:hidden' src={mobile} alt="" />
-                <img className=' hidden lg:block min-w-[460px] object-contain' src={desktop} alt="" />
+                <img className=' hidden lg:block object-contain' src={desktop} alt="" />
             </div>
 
         </div>
